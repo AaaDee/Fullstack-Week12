@@ -1,0 +1,606 @@
+Script started on 2022-10-30 13:13:48+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="119" LINES="24"]
+[?2004h]0;<user>@<user>-ThinkPad-L14-Gen-2: ~/personal/part12-containers-applications[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~/personal/part12-containers-applications[00m$ docker start =[K-iet S[K[K[K[Kt suspicious_wright
+[?2004l
+unknown shorthand flag: 't' in -t
+See 'docker start --help'.
+[?2004h]0;<user>@<user>-ThinkPad-L14-Gen-2: ~/personal/part12-containers-applications[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~/personal/part12-containers-applications[00m$ docker start -it suspicious_wright[1P suspicious_wright
+[?2004l
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/suspicious_wright/json": dial unix /var/run/docker.sock: connect: permission denied
+[?2004h]0;<user>@<user>-ThinkPad-L14-Gen-2: ~/personal/part12-containers-applications[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~/personal/part12-containers-applications[00m$ docker start -i suspicious_wright[1@s[1@u[C[1@d[1@o[1@ 
+[?2004l
+[sudo] password for <user>: 
+[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# 
+[K]0;root@d88e43bff764: /root@d88e43bff764:/# ls
+[?2004l
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [7mapt-get update[27m
+
+[7mapt-get install vim nano[27m[Aapt-get update
+
+apt-get install vim nano
+[?2004l
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+
+0% [1 InRelease 8723 B/270 kB 3%] [Connecting to security.ubuntu.com (91.189.91.39)]
+                                                                                    
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+
+                                                                                    
+0% [1 InRelease 175 kB/270 kB 65%] [2 InRelease 4841 B/110 kB 4%]
+                                                                 
+0% [2 InRelease 12.6 kB/110 kB 11%]
+                                   
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [114 kB]
+
+0% [3 InRelease 3569 B/114 kB 3%] [2 InRelease 12.6 kB/110 kB 11%]
+                                                                  
+0% [2 InRelease 12.6 kB/110 kB 11%]
+                                   
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [99.8 kB]
+
+0% [4 InRelease 2282 B/99.8 kB 2%] [2 InRelease 12.6 kB/110 kB 11%]
+                                                                   
+0% [2 InRelease 20.3 kB/110 kB 18%]
+0% [2 InRelease 28.0 kB/110 kB 25%]
+                                   
+Get:5 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+
+0% [5 Packages 2367 B/266 kB 1%] [2 InRelease 38.3 kB/110 kB 35%]
+                                                                 
+0% [2 InRelease 40.9 kB/110 kB 37%]
+0% [5 Packages store 0 B] [Waiting for headers] [2 InRelease 40.9 kB/110 kB 37%]
+0% [5 Packages store 0 B] [Waiting for headers] [2 InRelease 48.6 kB/110 kB 44%]
+                                                                                
+0% [Waiting for headers] [2 InRelease 48.6 kB/110 kB 44%]
+                                                         
+Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+
+0% [6 Packages 14.0 kB/17.5 MB 0%] [2 InRelease 53.8 kB/110 kB 49%]
+                                                                   
+0% [6 Packages 625 kB/17.5 MB 4%] [2 InRelease 79.5 kB/110 kB 72%]
+                                                                  
+0% [6 Packages 1432 kB/17.5 MB 8%]
+26% [6 Packages 3116 kB/17.5 MB 18%]
+                                    
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [578 kB]
+
+29% [6 Packages 4088 kB/17.5 MB 23%] [7 Packages 2367 B/578 kB 0%]
+                                                                  
+59% [6 Packages 12.6 MB/17.5 MB 72%]
+59% [7 Packages store 0 B] [6 Packages 12.6 MB/17.5 MB 72%]
+                                                           
+63% [6 Packages 13.7 MB/17.5 MB 78%] [Waiting for headers]
+                                                          
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [755 kB]
+
+67% [6 Packages 15.0 MB/17.5 MB 86%] [8 Packages 10.1 kB/755 kB 1%]
+                                                                   
+77% [8 Packages 453 kB/755 kB 60%]
+77% [6 Packages store 0 B] [Waiting for headers] [8 Packages 453 kB/755 kB 60%]
+                                                                               
+Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+
+77% [6 Packages store 0 B] [9 Packages 0 B/1792 kB 0%] [8 Packages 507 kB/755 kB 67%]
+                                                                                     
+81% [6 Packages store 0 B] [9 Packages 1045 kB/1792 kB 58%] [Waiting for headers]
+                                                                                 
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [4644 B]
+
+81% [6 Packages store 0 B] [9 Packages 1045 kB/1792 kB 58%] [10 Packages 4193 B/4644 B 90%]
+                                                                                           
+81% [6 Packages store 0 B] [9 Packages 1111 kB/1792 kB 62%]
+                                                           
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [480 kB]
+
+81% [6 Packages store 0 B] [9 Packages 1111 kB/1792 kB 62%] [11 Packages 30.3 kB/480 kB 6%]
+                                                                                           
+84% [6 Packages store 0 B] [Waiting for headers] [11 Packages 301 kB/480 kB 63%]
+                                                                                
+Get:12 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+
+85% [6 Packages store 0 B] [12 Packages 39.0 kB/164 kB 24%] [11 Packages 301 kB/480 kB 63%]
+                                                                                           
+85% [6 Packages store 0 B] [11 Packages 301 kB/480 kB 63%]
+                                                          
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [16.9 kB]
+
+85% [6 Packages store 0 B] [13 Packages 16.9 kB/16.9 kB 100%] [11 Packages 301 kB/480 kB 63%]
+                                                                                             
+85% [6 Packages store 0 B] [Waiting for headers] [11 Packages 301 kB/480 kB 63%]
+                                                                                
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [880 kB]
+
+85% [6 Packages store 0 B] [14 Packages 16.5 kB/880 kB 2%] [11 Packages 301 kB/480 kB 63%]
+                                                                                          
+88% [6 Packages store 0 B] [14 Packages 775 kB/880 kB 88%]
+                                                          
+89% [6 Packages store 0 B] [Waiting for headers]
+                                                
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [528 kB]
+
+89% [6 Packages store 0 B] [15 Packages 29.4 kB/528 kB 6%]
+                                                          
+90% [6 Packages store 0 B] [Waiting for headers]
+                                                
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [938 kB]
+
+90% [6 Packages store 0 B] [16 Packages 34.8 kB/938 kB 4%]
+                                                          
+93% [6 Packages store 0 B] [Waiting for headers]
+                                                
+Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [3175 B]
+
+93% [6 Packages store 0 B] [Waiting for headers]
+                                                
+Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [7269 B]
+
+                                                
+93% [6 Packages store 0 B]
+93% [6 Packages store 0 B]
+                          
+94% [Working]
+94% [8 Packages store 0 B]
+                          
+94% [Working]
+94% [10 Packages store 0 B]
+                           
+95% [Working]
+95% [9 Packages store 0 B]
+                          
+96% [Working]
+96% [12 Packages store 0 B]
+                           
+96% [Working]
+96% [13 Packages store 0 B]
+                           
+97% [Working]
+97% [11 Packages store 0 B]
+                           
+97% [Working]
+97% [14 Packages store 0 B]
+                           
+98% [Working]
+98% [15 Packages store 0 B]
+                           
+98% [Working]
+98% [16 Packages store 0 B]
+                           
+99% [Working]
+99% [17 Packages store 0 B]
+                           
+99% [Working]
+99% [18 Packages store 0 B]
+                           
+100% [Working]
+              
+Fetched 24.5 MB in 3s (8153 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 66%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 63%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  libexpat1 libgpm2 libmpdec3 libpython3.10 libpython3.10-minimal libpython3.10-stdlib libreadline8 libsodium23
+  libsqlite3-0 media-types readline-common vim-common vim-runtime xxd
+Suggested packages:
+  gpm hunspell readline-doc ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  libexpat1 libgpm2 libmpdec3 libpython3.10 libpython3.10-minimal libpython3.10-stdlib libreadline8 libsodium23
+  libsqlite3-0 media-types nano readline-common vim vim-common vim-runtime xxd
+0 upgraded, 16 newly installed, 0 to remove and 0 not upgraded.
+Need to get 14.8 MB of archives.
+After this operation, 62.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 libexpat1 amd64 2.4.7-1 [90.7 kB]
+
+0% [1 libexpat1 4870 B/90.7 kB 5%]
+                                  
+2% [Working]
+            
+Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
+
+2% [2 libmpdec3 3582 B/86.8 kB 4%]
+                                  
+3% [Waiting for headers]
+                        
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.6-1~22.04 [810 kB]
+
+3% [3 libpython3.10-minimal 231 B/810 kB 0%]
+                                            
+9% [Working]
+            
+Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
+
+9% [4 media-types 5644 B/25.5 kB 22%]
+                                     
+10% [Working]
+             
+Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
+
+11% [5 readline-common 13.3 kB/53.5 kB 25%]
+                                           
+12% [Working]
+             
+Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
+
+12% [6 libreadline8 34.2 kB/153 kB 22%]
+                                       
+14% [Waiting for headers]
+                         
+Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsqlite3-0 amd64 3.37.2-2 [643 kB]
+
+14% [7 libsqlite3-0 23.8 kB/643 kB 4%]
+                                      
+19% [Waiting for headers]
+                         
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.6-1~22.04 [1832 kB]
+
+19% [8 libpython3.10-stdlib 35.9 kB/1832 kB 2%]
+                                               
+30% [Waiting for headers]
+                         
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 xxd amd64 2:8.2.3995-1ubuntu2.1 [51.3 kB]
+
+30% [9 xxd 34.2 kB/51.3 kB 67%]
+                               
+31% [Waiting for headers]
+                         
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-common all 2:8.2.3995-1ubuntu2.1 [81.5 kB]
+
+32% [10 vim-common 48.1 kB/81.5 kB 59%]
+                                       
+33% [Waiting for headers]
+                         
+Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 nano amd64 6.2-1 [280 kB]
+
+33% [11 nano 31.8 kB/280 kB 11%]
+                                
+36% [Waiting for headers]
+                         
+Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgpm2 amd64 1.20.7-10build1 [15.3 kB]
+
+36% [12 libgpm2 15.3 kB/15.3 kB 100%]
+                                     
+37% [Working]
+             
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10 amd64 3.10.6-1~22.04 [1955 kB]
+
+37% [13 libpython3.10 28.7 kB/1955 kB 1%]
+                                         
+49% [Waiting for headers]
+                         
+Get:14 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsodium23 amd64 1.0.18-1build2 [164 kB]
+
+49% [14 libsodium23 11.8 kB/164 kB 7%]
+                                      
+51% [Waiting for headers]
+                         
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-runtime all 2:8.2.3995-1ubuntu2.1 [6832 kB]
+
+51% [15 vim-runtime 29.1 kB/6832 kB 0%]
+                                       
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim amd64 2:8.2.3995-1ubuntu2.1 [1727 kB]
+
+                                       
+90% [16 vim 24.1 kB/1727 kB 1%]
+                               
+100% [Working]
+              
+Fetched 14.8 MB in 1s (13.2 MB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libexpat1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 4395 files and directories currently installed.)
+Preparing to unpack .../00-libexpat1_2.4.7-1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.4.7-1) ...
+Selecting previously unselected package libmpdec3:amd64.
+Preparing to unpack .../01-libmpdec3_2.5.1-2build2_amd64.deb ...
+Unpacking libmpdec3:amd64 (2.5.1-2build2) ...
+Selecting previously unselected package libpython3.10-minimal:amd64.
+Preparing to unpack .../02-libpython3.10-minimal_3.10.6-1~22.04_amd64.deb ...
+Unpacking libpython3.10-minimal:amd64 (3.10.6-1~22.04) ...
+Selecting previously unselected package media-types.
+Preparing to unpack .../03-media-types_7.0.0_all.deb ...
+Unpacking media-types (7.0.0) ...
+Selecting previously unselected package readline-common.
+Preparing to unpack .../04-readline-common_8.1.2-1_all.deb ...
+Unpacking readline-common (8.1.2-1) ...
+Selecting previously unselected package libreadline8:amd64.
+Preparing to unpack .../05-libreadline8_8.1.2-1_amd64.deb ...
+Unpacking libreadline8:amd64 (8.1.2-1) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../06-libsqlite3-0_3.37.2-2_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.37.2-2) ...
+Selecting previously unselected package libpython3.10-stdlib:amd64.
+Preparing to unpack .../07-libpython3.10-stdlib_3.10.6-1~22.04_amd64.deb ...
+Unpacking libpython3.10-stdlib:amd64 (3.10.6-1~22.04) ...
+Selecting previously unselected package xxd.
+Preparing to unpack .../08-xxd_2%3a8.2.3995-1ubuntu2.1_amd64.deb ...
+Unpacking xxd (2:8.2.3995-1ubuntu2.1) ...
+Selecting previously unselected package vim-common.
+Preparing to unpack .../09-vim-common_2%3a8.2.3995-1ubuntu2.1_all.deb ...
+Unpacking vim-common (2:8.2.3995-1ubuntu2.1) ...
+Selecting previously unselected package nano.
+Preparing to unpack .../10-nano_6.2-1_amd64.deb ...
+Unpacking nano (6.2-1) ...
+Selecting previously unselected package libgpm2:amd64.
+Preparing to unpack .../11-libgpm2_1.20.7-10build1_amd64.deb ...
+Unpacking libgpm2:amd64 (1.20.7-10build1) ...
+Selecting previously unselected package libpython3.10:amd64.
+Preparing to unpack .../12-libpython3.10_3.10.6-1~22.04_amd64.deb ...
+Unpacking libpython3.10:amd64 (3.10.6-1~22.04) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../13-libsodium23_1.0.18-1build2_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.18-1build2) ...
+Selecting previously unselected package vim-runtime.
+Preparing to unpack .../14-vim-runtime_2%3a8.2.3995-1ubuntu2.1_all.deb ...
+Adding 'diversion of /usr/share/vim/vim82/doc/help.txt to /usr/share/vim/vim82/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim82/doc/tags to /usr/share/vim/vim82/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:8.2.3995-1ubuntu2.1) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../15-vim_2%3a8.2.3995-1ubuntu2.1_amd64.deb ...
+Unpacking vim (2:8.2.3995-1ubuntu2.1) ...
+Setting up libexpat1:amd64 (2.4.7-1) ...
+Setting up media-types (7.0.0) ...
+Setting up libsodium23:amd64 (1.0.18-1build2) ...
+Setting up libgpm2:amd64 (1.20.7-10build1) ...
+Setting up libsqlite3-0:amd64 (3.37.2-2) ...
+Setting up xxd (2:8.2.3995-1ubuntu2.1) ...
+Setting up vim-common (2:8.2.3995-1ubuntu2.1) ...
+Setting up libpython3.10-minimal:amd64 (3.10.6-1~22.04) ...
+Setting up nano (6.2-1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+Setting up libmpdec3:amd64 (2.5.1-2build2) ...
+Setting up vim-runtime (2:8.2.3995-1ubuntu2.1) ...
+Setting up readline-common (8.1.2-1) ...
+Setting up libreadline8:amd64 (8.1.2-1) ...
+Setting up libpython3.10-stdlib:amd64 (3.10.6-1~22.04) ...
+Setting up libpython3.10:amd64 (3.10.6-1~22.04) ...
+Setting up vim (2:8.2.3995-1ubuntu2.1) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/da/man1/vi.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/de/man1/vi.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/vi.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/it/man1/vi.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ja/man1/vi.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/pl/man1/vi.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ru/man1/vi.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/vi.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group vi) doesn't exist
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/da/man1/view.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/de/man1/view.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/view.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/it/man1/view.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ja/man1/view.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/pl/man1/view.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ru/man1/view.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/view.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group view) doesn't exist
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/da/man1/ex.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/de/man1/ex.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/fr/man1/ex.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/it/man1/ex.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ja/man1/ex.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/pl/man1/ex.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/ru/man1/ex.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group ex) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/ex.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group ex) doesn't exist
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [Knano   [7m/usr/src/app/index.js[27m /usr/src/app/index.js 
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;53H(B[0;7m[ Reading... ](B[m[22;52H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [36b/usr/src/app/index.js [45b [1;118H(B[m
+[23d(B[0;7m^G(B[m Help[23;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[23;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo
+[24d(B[0;7m^X(B[m Exit[24;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[24;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo
+[2d[?12l[?25h[?25l[1;74H(B[0;7m*
+[22d(B[m[K[1;118H
+[2dconsole.log((B[0;1m[35m'Hello World'[39m(B[m)[?12l[?25h[?25l[?12l[?25h
+[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22;53H(B[0;7m[ Writing... ](B[m[1;74H(B[0;7m [118G(B[m[22;52H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h
+[3d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [Knano /usr/src/app/index.js [1P[1P[1P[1P[1@e[1@c[1@h[1@o
+[?2004l
+/usr/src/app/index.js
+[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [Ke echo /usr/src/app/index.js [1@"[1@$[1@(/usr/src/app/index.js ) " 
+[?2004l
+bash: /usr/src/app/index.js: Permission denied
+
+[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [Kecho "$(/usr/src/app/index.js)" [1@s[1@u[1@d[1@o[1@ 
+[?2004l
+bash: /usr/src/app/index.js: Permission denied
+bash: sudo: command not found
+[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [Ksudo echo "$(/usr/src/app/index.js)" [5Pecho "$(/usr/src/app/index.js)" [5P/usr/src/app/index.js nano /usr/src/app/index.js 
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;53H(B[0;7m[ Reading... ](B[m[22;59H(B[0;7m 1 line ](B[m[H(B[0;7m  GNU nano 6.2 [36b/usr/src/app/index.js [45b [1;118H(B[m
+[23d(B[0;7m^G(B[m Help[23;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[23;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo
+[24d(B[0;7m^X(B[m Exit[24;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[24;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo
+[2dconsole.log((B[0;1m[35m'Hello World'[39m(B[m)
+[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [Knano /usr/src/app/index.js [1P[1P[1P[1P[1@c[1@a[1@t
+[?2004l
+console.log('Hello World')
+[?2004h]0;root@d88e43bff764: /root@d88e43bff764:/# [Kexit
+[?2004l
+exit
+[?2004h]0;<user>@<user>-ThinkPad-L14-Gen-2: ~/personal/part12-containers-applications[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~/personal/part12-containers-applications[00m$ exit
+[?2004l
+exit
+
+Script done on 2022-10-30 13:19:21+01:00 [COMMAND_EXIT_CODE="0"]

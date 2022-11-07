@@ -1,0 +1,256 @@
+Script started on 2022-11-07 14:12:49+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+[?2004h]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ sudo docker [K container ls
+[?2004l
+[sudo] password for <user>: 
+CONTAINER ID   IMAGE               COMMAND                  CREATED      STATUS          PORTS                                         NAMES
+107f0a0aeaf7   bitnami/redis:7.0   "/opt/bitnami/script…"   3 days ago   Up 59 minutes   0.0.0.0:6379->6379/tcp, :::6379->6379/tcp     todo-backend_redis_1
+d11c78ac5916   mongo               "docker-entrypoint.s…"   4 days ago   Up 59 minutes   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend_mongo_1
+[?2004h]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ 
+[K]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ sudo c[Kdocker exet [K[Kc =[K-=[Kit 10 bash
+[?2004l
+[?2004hI have no name!@107f0a0aeaf7:/$ 
+[KI have no name!@107f0a0aeaf7:/$ redis-cli
+[?2004l
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> j
+[17C
+[0K127.0.0.1:6379> je
+[18C
+[0K127.0.0.1:6379> jey
+[19C
+[0K127.0.0.1:6379> jeys
+[20C
+[0K127.0.0.1:6379> jey
+[19C
+[0K127.0.0.1:6379> je
+[18C
+[0K127.0.0.1:6379> j
+[17C
+[0K127.0.0.1:6379> 
+[16C
+[0K127.0.0.1:6379> k
+[17C
+[0K127.0.0.1:6379> ks
+[18C
+[0K127.0.0.1:6379> k
+[17C
+[0K127.0.0.1:6379> ke
+[18C
+[0K127.0.0.1:6379> key
+[19C
+[0K127.0.0.1:6379> keys[0;90;49m pattern[0m
+[20C
+[0K127.0.0.1:6379> keys [0;90;49mpattern[0m
+[21C
+[0K127.0.0.1:6379> keys *[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> keys *
+[22C
+1) "added_todos"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> s
+[17C
+[0K127.0.0.1:6379> se
+[18C
+[0K127.0.0.1:6379> set[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[19C
+[0K127.0.0.1:6379> set [0;90;49mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[20C
+[0K127.0.0.1:6379> set a[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[21C
+[0K127.0.0.1:6379> set ad[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[22C
+[0K127.0.0.1:6379> set add[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[23C
+[0K127.0.0.1:6379> set adde[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[24C
+[0K127.0.0.1:6379> set added[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[25C
+[0K127.0.0.1:6379> set added_[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[26C
+[0K127.0.0.1:6379> set added_t[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[27C
+[0K127.0.0.1:6379> set added_to[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[28C
+[0K127.0.0.1:6379> set added_tod[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[29C
+[0K127.0.0.1:6379> set added_todo[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[30C
+[0K127.0.0.1:6379> set added_todos[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[31C
+[0K127.0.0.1:6379> set added_todos [0;90;49mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[32C
+[0K127.0.0.1:6379> set added_todos 9[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[33C
+[0K127.0.0.1:6379> set added_todos 90[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[34C
+[0K127.0.0.1:6379> set added_todos 900[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[35C
+[0K127.0.0.1:6379> set added_todos 9001[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[36C
+[0K127.0.0.1:6379> set added_todos 9001
+[36C
+OK
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> set added_todos 9001[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m
+[36C
+[0K127.0.0.1:6379> keys *[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> keys *
+[22C
+1) "added_todos"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> g
+[17C
+[0K127.0.0.1:6379> ge
+[18C
+[0K127.0.0.1:6379> get[0;90;49m key[0m
+[19C
+[0K127.0.0.1:6379> get [0;90;49mkey[0m
+[20C
+[0K127.0.0.1:6379> get a[0;90;49m [0m
+[21C
+[0K127.0.0.1:6379> get ad[0;90;49m [0m
+[22C
+[0K127.0.0.1:6379> get add[0;90;49m [0m
+[23C
+[0K127.0.0.1:6379> get adde[0;90;49m [0m
+[24C
+[0K127.0.0.1:6379> get added[0;90;49m [0m
+[25C
+[0K127.0.0.1:6379> get added_[0;90;49m [0m
+[26C
+[0K127.0.0.1:6379> get added_t[0;90;49m [0m
+[27C
+[0K127.0.0.1:6379> get added_to[0;90;49m [0m
+[28C
+[0K127.0.0.1:6379> get added_tod[0;90;49m [0m
+[29C
+[0K127.0.0.1:6379> get added_todo[0;90;49m [0m
+[30C
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"9001"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"90011"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"90011"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"90012"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> d
+[17C
+[0K127.0.0.1:6379> de
+[18C
+[0K127.0.0.1:6379> del[0;90;49m key [key ...][0m
+[19C
+[0K127.0.0.1:6379> del [0;90;49mkey [key ...][0m
+[20C
+[0K127.0.0.1:6379> del a[0;90;49m [key ...][0m
+[21C
+[0K127.0.0.1:6379> del ad[0;90;49m [key ...][0m
+[22C
+[0K127.0.0.1:6379> del add[0;90;49m [key ...][0m
+[23C
+[0K127.0.0.1:6379> del adde[0;90;49m [key ...][0m
+[24C
+[0K127.0.0.1:6379> del added[0;90;49m [key ...][0m
+[25C
+[0K127.0.0.1:6379> del added_[0;90;49m [key ...][0m
+[26C
+[0K127.0.0.1:6379> del added_t[0;90;49m [key ...][0m
+[27C
+[0K127.0.0.1:6379> del added_to[0;90;49m [key ...][0m
+[28C
+[0K127.0.0.1:6379> del added_tod[0;90;49m [key ...][0m
+[29C
+[0K127.0.0.1:6379> del added_todo[0;90;49m [key ...][0m
+[30C
+[0K127.0.0.1:6379> del added_todos[0;90;49m [key ...][0m
+[31C
+[0K127.0.0.1:6379> del added_todos
+[31C
+(integer) 1
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> del added_todos[0;90;49m [key ...][0m
+[31C
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+(nil)
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"0"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> del added_todos[0;90;49m [key ...][0m
+[31C
+[0K127.0.0.1:6379> get added_todos[0;90;49m [0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"1"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> e
+[17C
+[0K127.0.0.1:6379> ex
+[18C
+[0K127.0.0.1:6379> exi
+[19C
+[0K127.0.0.1:6379> exit
+[20C
+[0K127.0.0.1:6379> exit
+[20C
+[?2004hI have no name!@107f0a0aeaf7:/$ exit
+[?2004l
+exit
+[?2004h]0;<user>@<user>-ThinkPad-L14-Gen-2: ~[01;32m<user>@<user>-ThinkPad-L14-Gen-2[00m:[01;34m~[00m$ exit
+[?2004l
+exit
+
+Script done on 2022-11-07 14:18:23+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,6 @@
+PUT http://localhost:3000/todos/6362ae0f88208a7e39a82cc0
+Content-Type: application/json
+
+{
+  "_id":"6362ae0f88208a7e39a82cc0","text":"Write cod","done":true
+}
