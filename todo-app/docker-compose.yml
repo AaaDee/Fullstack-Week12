@@ -1,6 +1,27 @@
-version: '3.8'
-
 services:
+  app:
+    image: hello-front-prod
+    build:
+      context: ./todo-frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./todo-frontend:/usr/src/app
+    ports:
+      - 3210:3000
+    container_name: hello-front-prod
+    environment:
+      REACT_APP_BACKEND_URL: http://localhost:8080/api/
+  debug-helper:
+    image: busybox
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - app # wait for the frontend container to be started
   mongo:
     image: mongo
     ports:
@@ -10,7 +31,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
       MONGO_INITDB_DATABASE: the_database
     volumes: 
-      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
   redis:
     image: docker.io/bitnami/redis:7.0
     environment:
@@ -24,10 +45,10 @@ services:
   server:
     image: express-server
     build:
-      context: .
-      dockerfile: dev.Dockerfile
+      context: ./todo-backend
+      dockerfile: Dockerfile
     volumes:
-      - ./:/usr/src/app
+      - ./todo-backend:/usr/src/app
     ports:
       - 3000:3000
     environment: 
